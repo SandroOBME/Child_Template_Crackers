@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Template>
+    <Name>OBME_CHILD</Name>
+    <Author>OBME-GmbH | Sandro Gebel</Author>
+    <URL>https://obme.de</URL>
+    <Version>0.9</Version>
+    <ShopVersion>406</ShopVersion>
+    <Parent>Evo</Parent>
+    <Preview>preview.png</Preview>
+    <Description>OBME-CHILD</Description>
+    <Settings>
+		<Section Name="Farbgebung (Hex/RGB als Farbwert, Frei lassen für Standard)" Key="colortheme">
+			<Setting Description="Top Leiste Hintergrund" Key="sg_head_ext" Type="text" Value=""/>
+			<Setting Description="Top Leiste Schriftfarbe" Key="sg_head_ext_color" Type="text" Value=""/>
+		</Section>
+		
+		<Section Name="Erweiterter Header" Key="header2">
+			<Setting Description="Erweiterungen nutzen?" Key="info" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="Hotline (Bsp. 01234/56789)" Key="info1" Type="text" Value=""/>
+			<Setting Description="Versand (Bsp. Blitzversand, Same Day)" Key="info2" Type="text" Value=""/>
+			<Setting Description="Rückgabe (Bsp. 100 Tage Rückgabe)" Key="info3" Type="text" Value=""/>
+			<Setting Description="Zusatz (Bsp. Geld zurück Garantie)" Key="info4" Type="text" Value=""/>
+		</Section>	
+		
+		<Section Name="Header Spezial Grafiken" Key="sp_gfx">
+			<Setting Description="SSL anzeigen" Key="ssl" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="SSL-Imagepfad (Standard: mediafiles/Bilder/custom_gfx/ssl.png)" Key="ssl_logo" Type="text" Value="mediafiles/Bilder/custom_gfx/ssl.png" />
+			
+			<Setting Description="Trusted Shops Badge anzeigen" Key="ts" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="TS-Imagepfad (Standard: mediafiles/Bilder/custom_gfx/ts.png)" Key="ts_logo" Type="text" Value="mediafiles/Bilder/custom_gfx/ts.png" />
+			
+			<Setting Description="Händlerbund anzeigen anzeigen" Key="hb" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="HB-Imagepfad (Standard: mediafiles/Bilder/custom_gfx/hb.png)" Key="hb_logo" Type="text" Value="mediafiles/Bilder/custom_gfx/hb.png" />
+			
+			<Setting Description="eKomy anzeigen" Key="ek" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="EK-Imagepfad (Standard: mediafiles/Bilder/custom_gfx/ek.png)" Key="ek_logo" Type="text" Value="mediafiles/Bilder/custom_gfx/ek.png" />
+		</Section>
+		
+        <Section Name="Startseite" Key="startseite">
+            <Setting Description="Element 1 auf Startseite" Key="order_eins" Type="select" Value="neuimsortiment">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 2 auf Startseite" Key="order_zwei" Type="select" Value="topangebote">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 3 auf Startseite" Key="order_drei" Type="select" Value="sonderangebote">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 4 auf Startseite" Key="order_vier" Type="select" Value="bestseller">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 5 auf Startseite" Key="order_fuenf" Type="select" Value="news">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 6 auf Startseite" Key="order_sechs" Type="select" Value="startseitentext">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 7 auf Startseite" Key="order_sieben" Type="select" Value="cms_content_eins">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 8 auf Startseite" Key="order_acht" Type="select" Value="cms_content_zwei">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+            <Setting Description="Element 9 auf Startseite" Key="order_neun" Type="select" Value="cms_content_drei">
+                <Option Value="0">------</Option>
+                <Option Value="neuimsortiment">Neu im Sortiment</Option>
+                <Option Value="topangebote">Top-Angebote</Option>
+                <Option Value="sonderangebote">Sonderangebote</Option>
+                <Option Value="bestseller">Bestseller</Option>
+                <Option Value="news">News</Option>
+                <Option Value="startseitentext">Startseitentext</Option>
+				<Option Value="cms_content_eins">CMS Inhalt:1</Option>
+				<Option Value="cms_content_zwei">CMS Inhalt:2</Option>
+				<Option Value="cms_content_drei">CMS Inhalt:3</Option>
+            </Setting>
+			<Setting Description="ID der zu nutzenden CMS-Seite für CMS Inhalt:1 (Tip: Dokumentation Seite:X)" Key="cms_content_id_eins" Type="text" Value=""/>
+			<Setting Description="ID der zu nutzenden CMS-Seite für CMS Inhalt:2 (Tip: Dokumentation Seite:X)" Key="cms_content_id_zwei" Type="text" Value=""/>
+			<Setting Description="ID der zu nutzenden CMS-Seite für CMS Inhalt:3 (Tip: Dokumentation Seite:X)" Key="cms_content_id_drei" Type="text" Value=""/>
+			<Setting Description="Raster für die Darstellung der News auf der Startseite (Rasterspalten sind als x/12 zu betrachten. Die Summe des Rasters darf 12/12 pro Reihe nicht ueberschreiten.)" Key="sg_newsgrid" Type="text" Value="col-lg-3 col-m-3 col-md-4 col-sm-3 col-s-4 col-xs-6"/>
+        </Section>
+		
+		<Section Name="Artikeldetailansicht" Key="articledetails">
+            <Setting Description="Zeige Artikelnummer" Key="cArtNr" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige Erscheinungsdatum" Key="erscheinungsdatum" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige EAN/Barcode" Key="cBarcode" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige HAN" Key="cHAN" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige TARIC-Code" Key="cTaric" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige ISBN" Key="cISBN" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige Herkunftsland" Key="cHerkunftsland" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige ASIN" Key="cASIN" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige UPC" Key="cUPC" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige EPID" Key="cEPID" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige Gefahrnummer" Key="cGefahrnr" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+            <Setting Description="Zeige MHD des Artikels" Key="dMHD" Type="select" Value="N">
+                <Option Value="Y">Ja</Option>
+                <Option Value="N">Nein</Option>
+            </Setting>
+		</Section>	
+					
+        <Section Name="Artikelübersicht" Key="sg_productlist_gallery">
+			<Setting Description="Raster für die Galeriedarstellung (Rasterspalten sind als x/12 zu betrachten. Die Summe des Rasters darf 12/12 pro Reihe nicht ueberschreiten.)" Key="sg_grid" Type="text" Value="col-lg-3 col-m-3 col-md-4 col-sm-3 col-s-4 col-xs-6"/>
+			<Setting Description="Zeige Wunschliste?" Key="info_overlay_wishlist" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="Zeige Vergleichsliste?" Key="info_overlay_compare" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="Zeige Rabatt bei Sonderpreisen?" Key="sg_discount" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+		</Section>	
+	
+        <Section Name="Vorteile im Footer anzeigen" Key="sg_footer_advantages">
+			<Setting Description="Zeige Vorteile?" Key="advantages_active" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+			<Setting Description="Servicetelefon" Key="advantages_phone_head" Type="text" Value=""/>
+			<Setting Description="Servicetelefon Zusatz Spalte oben" Key="advantages_phone_sub1" Type="text" Value=""/>
+			<Setting Description="Servicetelefon Zusatz Spalte unten" Key="advantages_phone_sub2" Type="text" Value=""/>
+			
+			<Setting Description="Öffnungszeiten" Key="advantages_opening_head" Type="text" Value=""/>
+			<Setting Description="Öffnungszeiten Zusatz Spalte oben" Key="advantages_opening_sub1" Type="text" Value=""/>
+			<Setting Description="Öffnungszeiten Zusatz Spalte unten" Key="advantages_opening_sub2" Type="text" Value=""/>
+			
+			<Setting Description="Lieferspecial" Key="advantages_delivery_head" Type="text" Value=""/>
+			<Setting Description="Lieferspecial Zusatz Spalte oben" Key="advantages_delivery_sub1" Type="text" Value=""/>
+			<Setting Description="Lieferspecial Zusatz Spalte unten" Key="advantages_delivery_sub2" Type="text" Value=""/>
+			
+			<Setting Description="Rücksendungen" Key="advantages_return_head" Type="text" Value=""/>
+			<Setting Description="Rücksendungen Zusatz Spalte oben" Key="advantages_return_sub1" Type="text" Value=""/>
+			<Setting Description="Rücksendungen Zusatz Spalte unten" Key="advantages_return_sub2" Type="text" Value=""/>
+		</Section>
+	
+        <Section Name="Zahlungsoptionen im Footer anzeigen" Key="sg_footer">
+			<Setting Description="Zeige die Zahlungsoptionen zusätzlich als Image im Footer?" Key="payment_options_active" Type="select" Value="yes" >
+                <Option Value="yes">Ja</Option>
+                <Option Value="no">Nein</Option>
+			</Setting>
+            <Setting Description="Pfad für das Image (Bsp.: mediafiles/Bilder/Payment.png)" Key="payment_options_logo" Type="text" Value="" />
+            <Setting Description="Hoehe des Images in px" Key="payment_options_height" Type="text" Value="33" />
+			<Setting Description="Verlinkung (Bsp.: Zahlungsmoeglichkeiten) " Key="payment_options_link" Type="text" Value="Zahlungsmoeglichkeiten" />
+        </Section>
+		
+			
+        <Section Name="Theme" Key="theme">
+            <Setting Description="Theme" Key="theme_default" Type="select" Value="obme">
+                <Option Value="obme">OBME - Simple - Flat - Genial!</Option>
+            </Setting>
+        </Section>
+    </Settings>
+    <Minify>
+
+        <CSS Name="obme.css">
+            <File Path="themes/obme/bootstrap.css"/>
+            <File Path="themes/obme/obme.css"/>
+            <File Path="../Evo/themes/base/offcanvas-menu.css"/>
+            <File Path="../Evo/themes/base/pnotify.custom.css"/>
+            <File Path="../Evo/themes/base/jquery-slider.css"/>
+        </CSS>
+        <JS Name="jtl3.js">
+            <File Path="js/jtl.evo.js"/>
+		</JS>
+    </Minify>
+    <Boxes>
+        <Container Position="right" Available="1"></Container>
+		<Container Position="top" Available="1"></Container>
+    </Boxes>
+</Template>
